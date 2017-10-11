@@ -1,0 +1,6 @@
+---
+- name: Install yum centos-release-scl
+  yum: name=centos-release-scl state=present
+
+- name: Install python27
+  yum: name=python27

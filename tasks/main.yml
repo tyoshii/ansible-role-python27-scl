@@ -1,0 +1,3 @@
+---
+- name: Deploy python27 with scl
+  include: "{{ ansible_os_family }}.yml"
